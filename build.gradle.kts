@@ -4,8 +4,6 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 fun properties(key: String) = project.findProperty(key).toString()
 
 plugins {
-    // Java support
-    id("java")
     // Kotlin support
     id("org.jetbrains.kotlin.jvm") version "1.6.0-RC"
     // Gradle IntelliJ Plugin
